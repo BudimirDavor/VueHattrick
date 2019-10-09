@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">	
+	</head>
+	<body>
+		<p id="app1">
+			{{ message }}
+		</p>
+		<p>
+			<button onclick="myFunction()">Click Me!</button>
+		</p>
+		
+		<div id="app2">
+            <p>{{ message }}</p>
+            <input v-model="message">
+        </div>
+		
+		<script src="script.js" defer></script>
+	</body>
+</html>
